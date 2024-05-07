@@ -1,0 +1,17 @@
+body {
+  margin: 0; 
+  padding: 0; 
+  background: #FFD1DC; /* Pale pink background for the entire page */
+}
+
+.card {
+  width: 18rem;
+  background: #FFD1DC; 
+  border: 1px solid black; 
+}
+
+@media screen and (max-width: 992px) {
+  .card {
+    margin: auto !important; 
+  }
+}
